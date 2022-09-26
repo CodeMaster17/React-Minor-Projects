@@ -9,6 +9,10 @@ import MovieInfos from './components/MovieInfos'
 import Counter from './components/Counter'
 import CurrentTime from './components/CurrentTime'
 import DigitalClock from './components/DigitalClock'
+import ChangeStyle from './components/ChangeStyle'
+import DigitalClock2 from './components/DigitalClock2'
+// import DigitalClock3 from './components/DigitalClock3 '
+import Forms from './components/Forms'
 
 
 console.log(MovieInfos[0])
@@ -58,7 +62,11 @@ root.render(
 
     {/* <Counter/> */}
     {/* <CurrentTime/> */}
-    <DigitalClock/>
+    {/* <DigitalClock/> */}
+    {/* <ChangeStyle/> */}
+    {/* <DigitalClock2/> */}
+    {/* <DigitalClock3/> */}
+    <Forms/>
   </React.StrictMode>
 );
 

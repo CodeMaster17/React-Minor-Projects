@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../css/Counter.css';
 
-const Counter=()=> {
+const Counter = () => {
 
   const state = useState();
   // console.log(state);
@@ -10,7 +10,7 @@ const Counter=()=> {
   // [current value, final value] = useState(initial value)
 
   const Increase = () => {
-    setCounter(counter+1);
+    setCounter(counter + 1);
     console.log(counter);
   };
 
